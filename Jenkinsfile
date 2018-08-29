@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Build'){
             steps{
-                bat 'mvn.exe clean package'
+                bat 'localmaven clean package'
             }
         }
     }
